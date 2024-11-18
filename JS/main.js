@@ -31,3 +31,11 @@ alertButton.addEventListener("click", function () { alert("HHELLO WORLD"); });
 //Hover button
 alertButton.addEventListener("mouseover", () => (alertButton.textContent = "You're hovering"));
 alertButton.addEventListener("mouseout", () => ((alertButton.textContent = "Click ME!")));
+
+//list
+const list = document.getElementById("numbers");
+for (let i = 1; i <= 12; i++){
+    const listitem = document.createElement("li");
+    listitem.textContent = i % 2 == 0 ? "Even" : "Odd";
+    list.appendChild(listitem)
+}
