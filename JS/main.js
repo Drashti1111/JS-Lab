@@ -23,3 +23,6 @@ else{
 }
 
 greetingElement.textContent = greeting;
+
+//Alert button
+document.getElementById("btn-alert").addEventListener("click", function () { alert("HHELLO WORLD"); });
