@@ -25,4 +25,9 @@ else{
 greetingElement.textContent = greeting;
 
 //Alert button
-document.getElementById("btn-alert").addEventListener("click", function () { alert("HHELLO WORLD"); });
+const alertButton = document.getElementById("btn-alert");
+alertButton.addEventListener("click", function () { alert("HHELLO WORLD"); });
+
+//Hover button
+alertButton.addEventListener("mouseover", () => (alertButton.textContent = "You're hovering"));
+alertButton.addEventListener("mouseout", () => ((alertButton.textContent = "Click ME!")));
