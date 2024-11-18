@@ -58,6 +58,19 @@ section div p{
     padding-bottom: 200px;
 }
 
+.morning{
+    background-color: lightblue;
+    color: black;
+}
+.afternoon{
+    background-color: lightblue;
+    color: black;
+}
+.evening{
+    background-color: darkblue;
+    color: white;
+}
+
 /*Footer CSS*/
 
 footer{
