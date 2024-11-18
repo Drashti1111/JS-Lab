@@ -41,6 +41,12 @@ section div h1{
     color: #085a5a;
 }
 
+section div h2{
+    text-align: center;
+    padding-top: 200px;
+    color: #085a5a;
+}
+
 section div p{
     text-align: center;
     padding-bottom: 200px;
