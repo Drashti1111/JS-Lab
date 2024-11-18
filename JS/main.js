@@ -1,0 +1,2 @@
+//Testing
+alert("JAVASCRIPT LINKED")
