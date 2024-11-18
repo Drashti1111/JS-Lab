@@ -41,6 +41,12 @@ section div h1{
     color: #085a5a;
 }
 
+button{
+    margin-left: 43%;
+    border: 3px solid #085a5a;
+    padding: 3%;
+}
+
 section div h2{
     text-align: center;
     padding-top: 200px;
