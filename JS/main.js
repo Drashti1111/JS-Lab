@@ -14,12 +14,15 @@ let greeting = "";
 
 if (hour < 12){
     greeting = "Good Morning!";
+    className = "morning";
 }
 if (hour < 17){
     greeting = "Good Afternoon!";
+    className = "afternoon";
 }
 else{
     greeting = "Good Evening!";
+    className = "evening";
 }
 
 greetingElement.textContent = greeting;
