@@ -1,0 +1,74 @@
+/*Header CSS*/
+header{
+    font-weight: 200;
+    font-style: normal ;
+    background-color: #085a5a;
+    color: #bdd3d3;
+    padding: 20px 0;
+    text-align: center;
+    font-family:"kanit";
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav a{
+    border-radius: 3px;
+    color: #bdd3d3;
+    padding: 30px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(133,181,187);
+    color: rgb(225,234,235);
+}
+
+/*Body CSS*/
+
+h1{
+    text-align: center;
+    color: #085a5a;
+}
+body{
+    background-color: rgb(219,243,243);
+    font-family:"kanit";
+}
+
+main{
+    text-align: center;
+}
+
+h5{
+    color: rgb(43, 121, 120) ;
+    padding-top: 150px;
+}
+
+p{
+    padding-top: 100px;
+}
+
+main div p{
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+/*Footer CSS*/
+
+footer{
+    background-color: #085a5a;
+    color: #bdd3d3;
+    padding: 3px 0;
+    text-align: center;
+}
+
+/* Media query */
+
+@media (width <= 800px){
+    .container{
+        flex-direction: column;
+    }
+}
