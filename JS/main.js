@@ -16,7 +16,7 @@ if (hour < 12){
     greeting = "Good Morning!";
     className = "morning";
 }
-if (hour < 17){
+if (hour > 17){
     greeting = "Good Afternoon!";
     className = "afternoon";
 }
